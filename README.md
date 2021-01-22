@@ -2,11 +2,19 @@
 
 Playing around with instructions I found on [github][bway_usage].
 
+## Initialising a new site
+
+Within the directory you want to work in, run:
+
+    hugo new site sitename
+
+Then start work inside sitename/.
+
 ## Editing with preview
 
-Running a live server on port 3333 while editing:
+Running a live server with drafts on port 3333 while editing:
 
-    hugo server -p 3333 -ws ./ -d dev/
+    hugo server -p 3333 -wDs ./ -d dev/
 
 Remember to make sure the `dev/` directory is not published.
 
