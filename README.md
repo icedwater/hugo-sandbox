@@ -10,6 +10,22 @@ Within the directory you want to work in, run:
 
 Then start work inside sitename/.
 
+## Ananke theme with Hugo on Elementary OS
+
+Themes are needed for Hugo to present content. To define a theme,
+add a line specifying it into your site's `config.toml`:
+
+    theme = "ananke"  # add this line into the file.
+
+Of course, you'll have to include the actual theme, which can be
+done via a `git submodule` or unzipping the archive into `themes/`
+as in [here][quickstart].
+
+With Elementary OS 5.1.7, Hugo 0.40.1 was provided, which only
+works with Ananke v2.51.
+
++[quickstart]: https://gohugo.io/getting-started/quick-start/
+
 ## Editing with preview
 
 Running a live server with drafts on port 3333 while editing:
